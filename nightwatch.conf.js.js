@@ -4,14 +4,14 @@ module.exports = {
 
   webdriver: {
     start_process: true,
-    server_path: require('geckodriver').path,  // Ruta al Geckodriver
+    server_path: require('geckodriver').path,  // Geckodriver para Firefox
     port: 4444, // Puerto por defecto para Firefox
   },
 
   test_settings: {
     default: {
       desiredCapabilities: {
-        browserName: 'firefox',  // Cambiado a 'firefox'
+        browserName: 'firefox',  // Para el navegador Firefox
       },
     },
   },
