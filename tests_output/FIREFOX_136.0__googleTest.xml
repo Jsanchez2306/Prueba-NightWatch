@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="googleTest" id="googleTest"
+    errors="1" failures="1" hostname="" package="googleTest" skipped="0"
+    tests="1" time="12.29" timestamp="">
+  
+    <testcase name="Google search test (Nightwatch)" classname="googleTest" time="12.28" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;input[name=&#34;q&#34;]&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5113ms)">    at Google search test (Nightwatch) (/home/finde/Escritorio/Prueba/tests/googleTest.js:17:8)</failure>
+
+    
+    <error message="Timed out while waiting for element &lt;input[name=&#34;q&#34;]&gt; to be present for 5000 milliseconds. - expected [32m&#34;visible&#34;[39m but got: [31m&#34;not found&#34;[39m [90m(5113ms)[39m" type="error"><![CDATA[
+    Error
+    at Google search test (Nightwatch) (/home/finde/Escritorio/Prueba/tests/googleTest.js:17:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError
+   Timed out while waiting for element &#34;By(css selector, button[aria-label=&#34;Aceptar todo&#34;])&#34; to be present for 5000 milliseconds.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
